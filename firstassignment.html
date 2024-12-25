@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christmas Wishes</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Mountains of Christmas', serif;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+        .santa-popup {
+            text-align: center;
+            animation: fadeIn 2s ease-in-out;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            width: 80%;
+        }
+        .santa-popup img {
+            max-width: 30000px;
+            margin-left: auto;
+        }
+        .santa-popup h2 {
+            color: #ff4e50;
+            font-size: 2.5rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            margin-right: auto;
+        }
+        @keyframes fadeIn {
+            0% { opacity: 0; transform: scale(0.8); }
+            100% { opacity: 1; transform: scale(1); }
+        }
+    </style>
+</head>
+<body>
+    <div class="santa-popup">
+        <h2>Merry Christmas and a Happy New Year! 🎄</h2>
+        <img src="./Screenshot%202024-12-25%20131418.png" alt="Santa">
+    </div>
+</body>
+</html>
